@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "singularName": "task",
+    "pluralName": "tasks",
+    "displayName": "task"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "taskTime": {
+      "type": "biginteger",
+      "required": true
+    },
+    "realTime": {
+      "type": "biginteger",
+      "required": true
+    },
+    "completed": {
+      "type": "boolean",
+      "required": false
+    },
+    "dateCreated": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
